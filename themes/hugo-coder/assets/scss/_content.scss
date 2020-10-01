@@ -255,3 +255,36 @@ img[alt=wgavatar] {
   border-radius: 3px;
   box-shadow: 0px 0px 6px #c6b7c8;
 }
+#frontdates {
+  font-size: 1.8rem;
+  line-height: 4.2rem;
+  // color: #58585a;
+  color: #58585a;
+  font-family: $heading-font-family;
+  font-weight: 700;
+  a,
+  a:hover,
+  a:focus,
+  a:visited {
+    font-size: 1.8rem;
+    line-height: 4.2rem;
+    // color: #58585a;
+    // color: #f4740b;
+    color: #ee710a;
+    font-family: $heading-font-family;
+    font-weight: 700;
+  }
+  .left {
+    // font-family: $heading-font-family;
+    display: table-cell;
+    width: 15.0rem;
+    text-align: right;
+    font-weight: bold;
+  }
+  .right {
+    font-family: $heading-font-family;
+    line-height: 3.0rem;
+    display: table-cell;
+    padding-left: 6.0rem;
+  }
+}
