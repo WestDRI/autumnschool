@@ -101,6 +101,6 @@ pygmentscodefencesguesssyntax = true
 	    url  = "julia"
 
 	    [[languages.en.menu.main]]
-	    name = "Scivis"
+	    name = "SciVis"
 	    weight = 8
 	    url  = "scivis"
