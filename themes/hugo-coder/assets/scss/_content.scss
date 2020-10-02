@@ -131,8 +131,16 @@ img[alt=wgavatar] {
   .about {
     text-align: center;
     h1 {
+      font-size: 4.5rem;
+      color: #58585a;
       margin-top: 2.0rem;
       margin-bottom: 0.5rem;
+      @media only screen and (max-width : 768px) {
+	font-size: 4.0rem;
+      }
+      @media only screen and (max-width : 480px) {
+	font-size: 3.4rem;
+      }
     }
     h2 {
       margin-top: 1.0rem;
