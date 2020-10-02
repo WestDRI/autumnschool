@@ -74,11 +74,20 @@
   @media only screen and (max-width : 768px) {
     width: 10rem;
   }
+  @media only screen and (max-width : 480px) {
+    width: 7rem;
+  }
 }
 
 img[alt=wgavatar] {
   width: 550px;
   border-radius: 2px;
+  @media only screen and (max-width : 768px) {
+    width: 450px;
+  }
+  @media only screen and (max-width : 480px) {
+    width: 300px;
+  }
 }
 
 .list {
@@ -131,6 +140,9 @@ img[alt=wgavatar] {
       font-size: 2.4rem;
       @media only screen and (max-width : 768px) {
 	font-size: 2.0rem;
+      }
+      @media only screen and (max-width : 480px) {
+	font-size: 1.4rem;
       }
     }
     ul {
