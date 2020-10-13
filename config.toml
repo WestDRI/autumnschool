@@ -86,7 +86,7 @@ pygmentscodefencesguesssyntax = true
             url = "python/"
 
 	    [[languages.en.menu.main]]
-	    name = "ML"
+	    name = "PyTorch"
 	    weight = 5
 	    url  = "ml"
 
