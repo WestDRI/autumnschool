@@ -1,5 +1,5 @@
 +++
-title = "Introduction to HPC"
+title = "High-performance computing (HPC)"
 slug = "hpc"
 +++
 

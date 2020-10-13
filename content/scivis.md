@@ -1,5 +1,5 @@
 +++
-title = "Scientific visualization"
+title = "3D scientific visualization with ParaView"
 slug = "scivis"
 +++
 

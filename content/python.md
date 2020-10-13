@@ -1,5 +1,5 @@
 +++
-title = "Scientific Python"
+title = "Basics of Python"
 slug = "python"
 +++
 
