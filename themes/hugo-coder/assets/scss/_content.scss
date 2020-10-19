@@ -315,9 +315,6 @@ img[alt=wgavatar] {
 // }
 #frontdates {
   padding-left: 8.0rem;
-  @media only screen and (max-width : 480px) {
-    padding-left: 0rem;
-  }
   font-size: 1.8rem;
   line-height: 4.2rem;
   // color: fg-color;
@@ -326,11 +323,18 @@ img[alt=wgavatar] {
   // color: #353536;
   font-family: $heading-font-family;
   font-weight: 700;
+  @media only screen and (max-width : 480px) {
+    padding-left: 0rem;
+    font-size: 1.4rem;
+  }
   a,
   a:hover,
   a:focus,
   a:visited {
     font-size: 1.8rem;
+    @media only screen and (max-width : 480px) {
+      font-size: 1.4rem;
+    }
     line-height: 4.2rem;
     // color: #58585a;
     color: #ee710a;
@@ -341,6 +345,9 @@ img[alt=wgavatar] {
     // font-family: $heading-font-family;
     display: table-cell;
     width: 28.0rem;
+    @media only screen and (max-width : 480px) {
+      width: 21.0rem;
+    }
     // text-align: right;
     text-align: left;
     font-weight: bold;
