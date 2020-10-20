@@ -1,6 +1,6 @@
 +++
 title = "Basics of Python"
-slug = "python"
+slug = "python-menu"
 +++
 
 This course will start at 9am Pacific Time and will run until 5pm Pacific Time. Course materials will be added here

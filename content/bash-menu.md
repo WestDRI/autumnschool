@@ -1,6 +1,6 @@
 +++
 title = "Bash command line"
-slug = "bash"
+slug = "bash-menu"
 +++
 
 This course will start at 9am Pacific Time and will run until 5pm Pacific Time. Its format will be a combination of
