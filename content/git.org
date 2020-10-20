@@ -1,9 +1,12 @@
 #+title: Version control with Git
 #+slug: git
 
-This course will run from 9am to 5pm Pacific Time. Its format will be a combination of interactive Zoom sessions, reading material, and videos.
+*@@html:<font color="#e86e0a">@@Tuesday, November 3@@html:</font>@@* \\
+*@@html:<font color="#3f3f40">@@9am–5pm Pacific Time@@html:</font>@@*
+
+The format for this course will be a combination of interactive Zoom sessions, and reading material.
 
 Course materials will be added here shortly before the start of the school.
 
-*Prerequisites:* working knowledge of the Linux Bash shell.
+/@@html:<u>@@Prerequisites:@@html:</u>@@/ working knowledge of the Linux Bash shell.
 

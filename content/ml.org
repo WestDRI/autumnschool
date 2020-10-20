@@ -1,8 +1,11 @@
 #+title: Deep learning with PyTorch
 #+slug: ml
 
-This course will run from 9am to 5pm Pacific Time. Its format will be a combination of interactive Zoom sessions, reading material, and videos.
+*@@html:<font color="#e86e0a">@@Monday, November 16@@html:</font>@@* \\
+*@@html:<font color="#3f3f40">@@9am–5pm Pacific Time@@html:</font>@@*
+
+The format for this course will be a combination of interactive Zoom sessions, reading material, and videos.
 
 Course materials will be added here shortly before the start of the school.
 
-*Prerequisites:* working knowledge of Python.
+/@@html:<u>@@Prerequisites:@@html:</u>@@/ working knowledge of Python.
