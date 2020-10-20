@@ -2,10 +2,11 @@
 #+slug: jl
 
 *@@html:<font color="#e86e0a">@@Monday, November 23@@html:</font>@@* \\
-*@@html:<font color="#3f3f40">@@9am–5pm Pacific Time@@html:</font>@@*
+*@@html:<font color="#3f3f40">@@9 am–5 pm Pacific Time@@html:</font>@@*
 
-The format for this course will be a combination of interactive Zoom sessions, and reading material.
-
+The format for this course will be a combination of interactive Zoom sessions, and reading material. \\
 Course materials will be added here shortly before the start of the school.
 
-/@@html:<u>@@Prerequisites:@@html:</u>@@/ none.
+/@@html:<u>@@Prerequisites:@@html:</u>@@ none./
+
+{{<br>}}
