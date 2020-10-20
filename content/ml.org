@@ -1,9 +1,8 @@
 #+title: Deep learning with PyTorch
 #+slug: ml
 
-This course will start at 9am Pacific Time and will run until 5pm Pacific Time. Its format will be a combination of
-several interactive Zoom sessions and pre-recorded reading and video materials in-between the Zoom sessions.
+This course will run from 9am to 5pm Pacific Time. Its format will be a combination of interactive Zoom sessions, reading material, and videos.
 
-Course materials will be added here shortly before the start of the course.
+Course materials will be added here shortly before the start of the school.
 
 *Prerequisites:* working knowledge of Python.
