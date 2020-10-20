@@ -253,6 +253,11 @@ img[alt=wgavatar] {
   }
 }
 
+.nolinktitle {
+  font-family: $heading-font-family;
+  padding-left: 30rem;
+}
+
 #threecol {
   .farleft {
     font-family: $heading-font-family;
