@@ -250,7 +250,7 @@ img[alt=wgavatar] {
   }
   &:hover,
   &:focus {
-    color: $link-color
+    font-style: italic;
   }
   &:visited {
     color: #999999
