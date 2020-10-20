@@ -68,22 +68,22 @@ pygmentscodefencesguesssyntax = true
             [[languages.en.menu.main]]
             name = "Bash"
             weight = 1
-            url = "bash/"
+            url = "bash-menu"
 
             [[languages.en.menu.main]]
             name = "Git"
             weight = 2
-            url = "git/"
+            url = "git"
 
             [[languages.en.menu.main]]
             name = "HPC"
             weight = 3
-            url = "hpc/"
+            url = "hpc-menu"
 
             [[languages.en.menu.main]]
             name = "Python"
             weight = 4
-            url = "python/"
+            url = "python-menu"
 
 	    [[languages.en.menu.main]]
 	    name = "PyTorch"
@@ -93,7 +93,7 @@ pygmentscodefencesguesssyntax = true
 	    [[languages.en.menu.main]]
 	    name = "Chapel"
 	    weight = 6
-	    url  = "chapel"
+	    url  = "chapel-menu"
 
 	    [[languages.en.menu.main]]
 	    name = "Julia"
@@ -103,4 +103,4 @@ pygmentscodefencesguesssyntax = true
 	    [[languages.en.menu.main]]
 	    name = "SciVis"
 	    weight = 8
-	    url  = "scivis"
+	    url  = "vis-menu"
