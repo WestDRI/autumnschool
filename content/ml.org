@@ -7,6 +7,8 @@
 The format for this course will be a combination of interactive Zoom sessions, reading material, and videos. \\
 Course materials will be added here shortly before the start of the school.
 
-/@@html:<u>@@Prerequisites:@@html:</u>@@ working knowledge of Python./
+*Instructor*: Marie-Hélène Burle (WestGrid)
+
+*Prerequisites*: Working knowledge of Python or attendance at the [[https://autumnschool.netlify.app/python-menu/][Basics of Python]] course.
 
 {{<br>}}

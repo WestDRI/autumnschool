@@ -4,9 +4,11 @@
 {{<cor>}}Monday, November 23{{</cor>}} \\
 {{<cgr>}}9 am–5 pm Pacific Time{{</cgr>}}
 
-The format for this course will be a combination of interactive Zoom sessions, and reading material. \\
+The format for this course will be a combination of interactive Zoom sessions and reading material. \\
 Course materials will be added here shortly before the start of the school.
 
-/@@html:<u>@@Prerequisites:@@html:</u>@@ none./
+*Instructor*: Marie-Hélène Burle (WestGrid)
+
+*Prerequisites*: None.
 
 {{<br>}}

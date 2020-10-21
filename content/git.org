@@ -4,10 +4,11 @@
 {{<cor>}}Tuesday, November 3{{</cor>}} \\
 {{<cgr>}}9 am–5 pm Pacific Time{{</cgr>}}
 
-The format for this course will be a combination of interactive Zoom sessions and reading material. \\
-Course materials will be added here shortly before the start of the school.
+The format for this course will be a combination of interactive Zoom sessions and reading material.
 
-/@@html:<u>@@Prerequisites:@@html:</u>@@ working knowledge of the Linux Bash shell./
+*Instructor*: Marie-Hélène Burle (WestGrid)
+
+*Prerequisites*: None.
 
 {{<br>}}
 
