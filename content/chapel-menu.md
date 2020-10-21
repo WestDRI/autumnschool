@@ -17,9 +17,33 @@ of Python and the performance of traditional compiled languages such as C and Fo
 typically take tens of lines of MPI code can be expressed in only a few lines of Chapel code. Chapel is open source and
 can run on any Unix-like operating system, with hardware support from laptops to large HPC systems.
 
+**Instructor**: Alex Razoumov (WestGrid)
+
 **Prerequisites:** working knowledge of the Linux Bash shell and familiarity with HPC cluster environment.
 
 **Software**: All attendees will need a remote secure shell (SSH) client installed on their computer in order to
 participate in the course exercises. On Windows we recommend
 [the free Home Edition of MobaXterm](https://mobaxterm.mobatek.net/download.html). On Mac and Linux computers SSH is
 usually pre-installed (try typing `ssh` in a terminal to make sure it is there).
+
+{{< figure src="/images/solveMulti.gif" >}}
+
+
+
+
+<!-- {{<cor>}}Zoom{{</cor>}} {{<s>}} {{<cgr>}}9am-9:45am Pacific{{</cgr>}} \ -->
+<!-- {{<linktitle url="../chapel1" text="Morning opening session">}} -->
+
+<!-- {{<cbr>}}On your own{{</cbr>}} \ -->
+<!-- {{<linktitle url="../chapel/chapel-01-base" text="Basic language features">}} \ -->
+<!-- {{<linktitle url="chapel-02-task-parallelism" text="Task parallelism">}} &nbsp; (try to get here as far as you can) -->
+
+<!-- {{<cor>}}Zoom{{</cor>}} {{<s>}} {{<cgr>}}12:30pm-2pm Pacific{{</cgr>}} \ -->
+<!-- {{<linktitle url="../chapel2" text="Mid-day session">}} -->
+
+<!-- {{<cbr>}}On your own{{</cbr>}} \ -->
+<!-- {{<linktitle url="../chapel/chapel-02-task-parallelism" text="Task parallelism">}} &nbsp; (continue where you left off) \ -->
+<!-- {{<linktitle url="../chapel/chapel-03-domain-parallelism" text="Data parallelism">}} -->
+
+<!-- {{<cor>}}Zoom{{</cor>}} {{<s>}} {{<cgr>}}3:30pm-5pm Pacific{{</cgr>}} \ -->
+<!-- {{<nolinktitle>}}Cover challenges, do some exercises, and wrap up the course.{{</nolinktitle>}} -->
