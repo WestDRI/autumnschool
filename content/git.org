@@ -30,7 +30,7 @@ The format for this course will be a combination of interactive Zoom sessions an
 {{<linktitle url="https://westgrid-cli.netlify.app/autumnschool2020/09_git_stash" text="Stashing changes">}}
 
 {{<cor>}}Zoom{{</cor>}} {{<s>}} {{<cgr>}}3–5 pm Pacific Time{{</cgr>}} \\
-{{<linktitle url="https://westgrid-cli.netlify.app/autumnschool2020/10_git_timetravel" text="Time travel">}} \\
-{{<linktitle url="https://westgrid-cli.netlify.app/autumnschool2020/11_git_branches" text="Branches">}} \\
+{{<linktitle url="https://westgrid-cli.netlify.app/autumnschool2020/10_git_branches" text="Branches">}} \\
+{{<linktitle url="https://westgrid-cli.netlify.app/autumnschool2020/11_git_timetravel" text="Time travel">}} \\
 {{<linktitle url="https://westgrid-cli.netlify.app/autumnschool2020/12_git_remotes" text="Remotes">}} \\
 {{<linktitle url="https://westgrid-cli.netlify.app/autumnschool2020/13_git_wrapup" text="Final questions">}}
