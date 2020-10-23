@@ -1,5 +1,5 @@
 #+title: Deep learning with PyTorch
-#+slug: ml
+#+slug: pytorch
 
 {{<cor>}}Monday, November 16{{</cor>}} \\
 {{<cgr>}}9 am–5 pm Pacific Time{{</cgr>}}

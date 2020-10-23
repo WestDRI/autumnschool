@@ -1,5 +1,5 @@
 #+title: Scientific programming in Julia
-#+slug: jl
+#+slug: julia
 
 {{<cor>}}Monday, November 23{{</cor>}} \\
 {{<cgr>}}9 am–5 pm Pacific Time{{</cgr>}}

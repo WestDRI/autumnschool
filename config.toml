@@ -88,7 +88,7 @@ pygmentscodefencesguesssyntax = true
 	    [[languages.en.menu.main]]
 	    name = "PyTorch"
 	    weight = 5
-	    url  = "ml"
+	    url  = "pytorch"
 
 	    [[languages.en.menu.main]]
 	    name = "Chapel"
@@ -98,7 +98,7 @@ pygmentscodefencesguesssyntax = true
 	    [[languages.en.menu.main]]
 	    name = "Julia"
 	    weight = 7
-	    url  = "jl"
+	    url  = "julia"
 
 	    [[languages.en.menu.main]]
 	    name = "SciVis"
