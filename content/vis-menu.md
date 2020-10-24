@@ -3,6 +3,9 @@ title = "3D scientific visualization with ParaView"
 slug = "vis-menu"
 +++
 
+{{<cor>}}Tuesday, November 24{{</cor>}}\
+{{<cgr>}}9 am–5 pm Pacific Time{{</cgr>}}
+
 This course will start at 9am Pacific Time and will run until 5pm Pacific Time. Its format will be a combination of
 several interactive Zoom sessions and pre-recorded reading and video materials in-between the Zoom sessions. Course
 materials will be added here shortly before the start of the course.
