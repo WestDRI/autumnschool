@@ -21,7 +21,7 @@ The format for this course will be a combination of interactive Zoom sessions an
 {{<linktitle url="https://westgrid-cli.netlify.app/autumnschool2020/04_git_doc" text="Documentation">}} \\
 {{<linktitle url="https://westgrid-cli.netlify.app/autumnschool2020/05_git_how" text="How Git works">}}
 
-{{<cor>}}Zoom{{</cor>}} {{<s>}} {{<cgr>}}noon—1:30 pm Pacific Time{{</cgr>}} \\
+{{<cor>}}Zoom{{</cor>}} {{<s>}} {{<cgr>}}noon–1:30 pm Pacific Time{{</cgr>}} \\
 {{<linktitle url="https://westgrid-cli.netlify.app/autumnschool2020/06_git_questions" text="Questions so far">}} \\
 {{<linktitle url="https://westgrid-cli.netlify.app/autumnschool2020/07_git_record" text="Recording history">}}
 
