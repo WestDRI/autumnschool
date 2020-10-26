@@ -29,8 +29,17 @@ computers SSH is usually pre-installed (try typing `ssh` in a terminal to make s
 
 
 
-<!-- {{<cor>}}Zoom{{</cor>}} {{<s>}} {{<cgr>}}9am-9:30am Pacific{{</cgr>}} \ -->
-<!-- {{<linktitle url="../bash1" text="Morning opening session">}} -->
+{{<cor>}}Zoom{{</cor>}} {{<s>}} {{<cgr>}}9am-9:30am Pacific{{</cgr>}} \
+{{<linktitle url="../bash1" text="Morning opening session">}}
+
+{{<cbr>}}On your own{{</cbr>}} \
+{{<nolinktitle>}}Introduction{{</nolinktitle>}} \
+{{<nolinktitle>}}Navigating the filesystem{{</nolinktitle>}} \
+{{<nolinktitle>}}Creating, moving and copying things{{</nolinktitle>}} \
+{{<nolinktitle>}}Archives and compression{{</nolinktitle>}} \
+{{<nolinktitle>}}Transferring files and directories to/from remote computers{{</nolinktitle>}} \
+{{<nolinktitle>}}Wildcards, redirection to files, pipes, and aliases{{</nolinktitle>}} \
+{{<nolinktitle>}}Loops{{</nolinktitle>}}
 
 <!-- {{<cbr>}}On your own{{</cbr>}} \ -->
 <!-- {{<linktitle url="../bash/bash-01-intro" text="Introduction (10 min)">}} \ -->
@@ -41,8 +50,13 @@ computers SSH is usually pre-installed (try typing `ssh` in a terminal to make s
 <!-- {{<linktitle url="../bash/bash-06-wildcards-redirection-pipes" text="Wildcards, redirection to files, pipes, and aliases (10 min)">}} \ -->
 <!-- {{<linktitle url="../bash/bash-07-loops" text="Loops (9 min)">}} -->
 
-<!-- {{<cor>}}Zoom{{</cor>}} {{<s>}} {{<cgr>}}11:30am-1:30pm Pacific{{</cgr>}} \ -->
-<!-- {{<linktitle url="../bash2" text="Mid-day session">}} -->
+{{<cor>}}Zoom{{</cor>}} {{<s>}} {{<cgr>}}11:30am-1:30pm Pacific{{</cgr>}} \
+{{<linktitle url="../bash2" text="Mid-day session">}}
+
+{{<cbr>}}On your own{{</cbr>}} \
+{{<nolinktitle>}}Bash scripts and functions, and variables{{</nolinktitle>}} \
+{{<nolinktitle>}}Finding things with `grep` and `find`{{</nolinktitle>}} \
+{{<nolinktitle>}}Text manipulation{{</nolinktitle>}}
 
 <!-- {{<cbr>}}On your own{{</cbr>}} \ -->
 <!-- {{<linktitle url="../bash/bash-08-scripts-functions" text="Bash scripts and functions, and variables (32 min)">}} \ -->
@@ -50,5 +64,5 @@ computers SSH is usually pre-installed (try typing `ssh` in a terminal to make s
 <!-- {{<linktitle url="../bash/bash-10-text-manipulation" text="Text manipulation (19 min)">}} -->
 <!-- <\!-- {{<linktitle url="../bash/bash-11-other" text="Other advanced topics (6 min)">}} -\-> -->
 
-<!-- {{<cor>}}Zoom{{</cor>}} {{<s>}} {{<cgr>}}3pm-5pm Pacific{{</cgr>}} \ -->
-<!-- {{<linktitle url="../bash3" text="Late-afternoon session">}} -->
+{{<cor>}}Zoom{{</cor>}} {{<s>}} {{<cgr>}}3pm-5pm Pacific{{</cgr>}} \
+{{<linktitle url="../bash3" text="Late-afternoon session">}}
