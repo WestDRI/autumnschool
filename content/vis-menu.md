@@ -31,8 +31,14 @@ course if you want to load your own dataset into ParaView.
 
 
 
-<!-- {{<cor>}}Zoom{{</cor>}} {{<s>}} {{<cgr>}}9am-9:30am Pacific{{</cgr>}} \ -->
-<!-- {{<linktitle url="../vis1" text="Morning opening session">}} -->
+{{<cor>}}Zoom{{</cor>}} {{<s>}} {{<cgr>}}9am-9:30am Pacific{{</cgr>}} \
+{{<linktitle url="../vis1" text="Morning opening session">}}
+
+{{<cbr>}}On your own{{</cbr>}} \
+{{<nolinktitle>}}Introduction{{</nolinktitle>}} \
+{{<nolinktitle>}}ParaView architecture and GUI{{</nolinktitle>}} \
+{{<nolinktitle>}}Importing data into ParaView{{</nolinktitle>}} \
+{{<nolinktitle>}}Working with ParaView filters{{</nolinktitle>}}
 
 <!-- {{<cbr>}}On your own{{</cbr>}} \ -->
 <!-- {{<linktitle url="../vis/vis-01-intro" text="Introduction (40 min)">}} \ -->
@@ -40,8 +46,15 @@ course if you want to load your own dataset into ParaView.
 <!-- {{<linktitle url="../vis/vis-03-import" text="Importing data into ParaView (29 min)">}} \ -->
 <!-- {{<linktitle url="../vis/vis-04-filters" text="Working with ParaView filters (35 min)">}} -->
 
-<!-- {{<cor>}}Zoom{{</cor>}} {{<s>}} {{<cgr>}}11:30am-1:30pm Pacific{{</cgr>}} \ -->
-<!-- {{<linktitle url="../vis2" text="Mid-day session">}} -->
+{{<cor>}}Zoom{{</cor>}} {{<s>}} {{<cgr>}}11:30am-1:30pm Pacific{{</cgr>}} \
+{{<linktitle url="../vis2" text="Mid-day session">}}
+
+{{<cbr>}}On your own{{</cbr>}} \
+{{<nolinktitle>}}Exporting scenes{{</nolinktitle>}} \
+{{<nolinktitle>}}Animation in ParaView{{</nolinktitle>}} \
+{{<nolinktitle>}}Python scripting in ParaView{{</nolinktitle>}} \
+{{<nolinktitle>}}Remote and distributed visualization{{</nolinktitle>}} \
+{{<nolinktitle>}}Summary{{</nolinktitle>}}
 
 <!-- {{<cbr>}}On your own{{</cbr>}} \ -->
 <!-- {{<linktitle url="../vis/vis-05-export" text="Exporting scenes (5 min)">}} \ -->
@@ -50,5 +63,5 @@ course if you want to load your own dataset into ParaView.
 <!-- {{<linktitle url="../vis/vis-08-remote" text="Remote and distributed visualization (37 min)">}} \ -->
 <!-- {{<linktitle url="../vis/vis-09-summary" text="Summary (4 min)">}} -->
 
-<!-- {{<cor>}}Zoom{{</cor>}} {{<s>}} {{<cgr>}}3pm-5pm Pacific{{</cgr>}} \ -->
-<!-- {{<nolinktitle>}}Cover challenges, do some exercises, and wrap up the course.{{</nolinktitle>}} -->
+{{<cor>}}Zoom{{</cor>}} {{<s>}} {{<cgr>}}3pm-5pm Pacific{{</cgr>}} \
+{{<nolinktitle>}}Cover challenges, do some exercises, and wrap up the course.{{</nolinktitle>}}
