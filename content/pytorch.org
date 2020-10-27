@@ -24,21 +24,22 @@ Course materials will be added here shortly before the start of the school.
 {{<linktitle url="https://westgrid-cli.netlify.app/autumnschool2020/06_pt_doc" text="Documentation">}}
 
 {{<cor>}}Zoom{{</cor>}} {{<s>}} {{<cgr>}}11:15 am–12:15 pm Pacific Time{{</cgr>}} \\
-{{<linktitle url="https://westgrid-cli.netlify.app/autumnschool2020/07_pt_tensor" text="PyTorch tensors">}}
+{{<linktitle url="https://westgrid-cli.netlify.app/autumnschool2020/07_pt_questions" text="Questions so far">}} \\
+{{<linktitle url="https://westgrid-cli.netlify.app/autumnschool2020/08_pt_tensor" text="PyTorch tensors">}}
 
 {{<cbr>}}On your own{{</cbr>}} \\
-{{<linktitle url="https://westgrid-cli.netlify.app/autumnschool2020/08_pt_learning" text="How do neural networks learn?">}} \\
-{{<linktitle url="https://westgrid-cli.netlify.app/autumnschool2020/09_pt_mnist" text="The MNIST">}} \\
-{{<linktitle url="https://westgrid-cli.netlify.app/autumnschool2020/10_pt_backprop" text="Backpropagation">}} \\
-{{<linktitle url="https://westgrid-cli.netlify.app/autumnschool2020/11_pt_calculus" text="A bit of calculus">}}
+{{<linktitle url="https://westgrid-cli.netlify.app/autumnschool2020/09_pt_learning" text="How do neural networks learn?">}} \\
+{{<linktitle url="https://westgrid-cli.netlify.app/autumnschool2020/10_pt_mnist" text="The MNIST">}} \\
+{{<linktitle url="https://westgrid-cli.netlify.app/autumnschool2020/11_pt_backprop" text="Backpropagation">}} \\
+{{<linktitle url="https://westgrid-cli.netlify.app/autumnschool2020/12_pt_calculus" text="A bit of calculus">}}
 
 {{<cor>}}Zoom{{</cor>}} {{<s>}} {{<cgr>}}3–5 pm Pacific Time{{</cgr>}} \\
-{{<linktitle url="https://westgrid-cli.netlify.app/autumnschool2020/12_pt_autograd" text="Automatic differentiation">}} \\
-{{<linktitle url="https://westgrid-cli.netlify.app/autumnschool2020/12_pt_autograd" text="">}} \\
-{{<linktitle url="https://westgrid-cli.netlify.app/autumnschool2020/13_pt_wrapup" text="Final questions">}}
+{{<linktitle url="https://westgrid-cli.netlify.app/autumnschool2020/13_pt_autograd" text="Automatic differentiation">}} \\
+{{<linktitle url="https://westgrid-cli.netlify.app/autumnschool2020/14_pt_ournn" text="Our NN to classify the MNIST">}} \\
+{{<linktitle url="https://westgrid-cli.netlify.app/autumnschool2020/15_pt_wrapup" text="Final questions">}}
 
 ---
 
 {{<clg>}}(Additional readings){{</clg>}} \\
-{{<linktitle url="https://westgrid-cli.netlify.app/autumnschool2020/14_pt_hpc" text="Running ML jobs on Compute Canada clusters">}} \\
-{{<linktitle url="https://westgrid-cli.netlify.app/autumnschool2020/15_pt_distributed" text="Distributed computing with PyTorch">}}
+{{<linktitle url="https://westgrid-cli.netlify.app/autumnschool2020/16_pt_hpc" text="Running ML jobs on Compute Canada clusters">}} \\
+{{<linktitle url="https://westgrid-cli.netlify.app/autumnschool2020/17_pt_distributed" text="Distributed computing with PyTorch">}}
