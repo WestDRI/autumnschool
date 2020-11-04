@@ -4,17 +4,17 @@ slug = "vis1"
 +++
 
 1. instructor / helpers / course introduction
-1. distribute usernames and passwords (optional, only for quick Plotly practice on Cassiopeia)
+<!-- 1. distribute usernames and passwords (optional, only for quick Plotly practice on Cassiopeia) -->
 1. slides for this course
 1. let's try to start ParaView on your computer
 1. review the program for today
 1. share the afternoon exercises: pay attention to the slides that say *"Exercise"* in the title
 
-You have 1h55m of videos to watch this morning!
+You have **1h55m** of videos to watch this morning!
 
-Plotly is a **side topic** to show some simple interactive plotting where ParaView is an overkill. Please do not spend
-more than 30 mins on it, or you will have no time left for 3D visualization! On the other hand, if all you are
-interested is 1D/2D plotting then feel free to spend more time on Plotly.
+<!-- Plotly is a **side topic** to show some simple interactive plotting where ParaView is an overkill. Please do not spend -->
+<!-- more than 30 mins on it, or you will have no time left for 3D visualization! On the other hand, if all you are -->
+<!-- interested is 1D/2D plotting then feel free to spend more time on Plotly. -->
 
 By the end of the day you should be comfortable with:
 

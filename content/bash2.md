@@ -13,7 +13,7 @@ slug = "bash2"
 
 ### Part 2: afternoon materials
 
-1. Review the program for this afternoon: you have 1h4m of videos to watch.
+1. Review the program for this afternoon: you have **1h4m** of videos to watch.
 
 By the end of the day you should be able to:
 
@@ -23,7 +23,7 @@ By the end of the day you should be able to:
 - search the filesystem with `find`
 - perform basic text manipulation with `sed`, `tr`, `awk`
 
-Some of the hands-on exercises we will do in the last Zoom session:
+Some of the hands-on exercises we will do in the late-afternoon Zoom session:
 
 - Write a function archive() to replace directories with their gzipped archives.
 - Write a one-line command that will search for a string in all files in the current directory and all
