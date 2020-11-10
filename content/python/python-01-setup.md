@@ -51,6 +51,7 @@ matplotlib, pandas, scikit-image, xarray, nc-time-axis, cartopy, netcdf4.
 
 - File | Save As to rename your notebook
 - File | New Launcher to open a new launcher dashboard, e.g. to start a terminal
+- File | Logout to terminate your job (everything is running inside a Slurm job!)
 
 ## Navigating notebook cells
 
