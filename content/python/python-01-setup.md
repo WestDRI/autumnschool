@@ -47,6 +47,11 @@ you know what you are doing, you can start a Jupyter notebook locally from your 
 running locally, for this workshop you will need the following Python packages installed on your computer: numpy,
 matplotlib, pandas, scikit-image, xarray, nc-time-axis, cartopy, netcdf4.
 
+## Jupyter interface at https://jupyter.uu.c3.ca
+
+- File | Save As to rename your notebook
+- File | New Launcher to open a new launcher dashboard, e.g. to start a terminal
+
 ## Navigating notebook cells
 
 Explain: tab completion, annotating code, displaying figures inside the notebook.
