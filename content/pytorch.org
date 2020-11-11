@@ -11,6 +11,8 @@ Course materials will be added here shortly before the start of the school.
 
 *Prerequisites*: Working knowledge of Python or attendance at the [[https://autumnschool.netlify.app/python-menu/][Basics of Python]] course.
 
+*Software*: All attendees will need a remote secure shell (SSH) client installed on their computer. On Windows we recommend [[https://mobaxterm.mobatek.net/download.html][the free Home Edition of MobaXterm]]. On Mac and Linux computers SSH is usually pre-installed (try typing ~ssh~ in a terminal to make sure it is there).
+
 {{<br>}}
 
 {{<cor>}}Zoom{{</cor>}} {{<s>}} {{<cgr>}}9–9:30 am Pacific Time{{</cgr>}} \\
