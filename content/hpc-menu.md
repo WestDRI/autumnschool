@@ -7,8 +7,11 @@ slug = "hpc-menu"
 {{<cgr>}}9 am–5 pm Pacific Time{{</cgr>}}
 
 This course will start at 9am Pacific Time and will run until 5pm Pacific Time. Its format will be a combination of
-several interactive Zoom sessions and pre-recorded reading and video materials in-between the Zoom sessions. Course
-materials will be added here shortly before the start of the course.
+several interactive Zoom sessions and pre-recorded reading and video materials in-between the Zoom sessions.
+
+You can now download [today's materials](http://bit.ly/introhpc) (ZIP file with slides and codes inside).
+
+<!-- Course materials will be added here shortly before the start of the course. -->
 
 ---
 
@@ -34,26 +37,26 @@ usually pre-installed (try typing `ssh` in a terminal to make sure it is there).
 {{<cor>}}Zoom{{</cor>}} {{<s>}} {{<cgr>}}9am-9:45am Pacific{{</cgr>}} \
 {{<linktitle url="../hpc1" text="Morning opening session">}}
 
-{{<cbr>}}On your own{{</cbr>}} \
-{{<nolinktitle>}}Overview{{</nolinktitle>}} \
-{{<nolinktitle>}}Basics{{</nolinktitle>}} \
-{{<nolinktitle>}}Languages and tools{{</nolinktitle>}}
-
 <!-- {{<cbr>}}On your own{{</cbr>}} \ -->
-<!-- {{<linktitle url="../hpc/hpc-01-overview" text="Overview (20 min)">}} \ -->
-<!-- {{<linktitle url="../hpc/hpc-02-basics" text="Basics (28 min)">}} \ -->
-<!-- {{<linktitle url="../hpc/hpc-03-languages" text="Languages and tools (61 min)">}} -->
+<!-- {{<nolinktitle>}}Overview{{</nolinktitle>}} \ -->
+<!-- {{<nolinktitle>}}Basics{{</nolinktitle>}} \ -->
+<!-- {{<nolinktitle>}}Languages and tools{{</nolinktitle>}} -->
+
+{{<cbr>}}On your own{{</cbr>}} \
+{{<linktitle url="../hpc/hpc-01-overview" text="Overview (20 min)">}} \
+{{<linktitle url="../hpc/hpc-02-basics" text="Basics (28 min)">}} \
+{{<linktitle url="../hpc/hpc-03-languages" text="Languages and tools (61 min)">}}
 
 {{<cor>}}Zoom{{</cor>}} {{<s>}} {{<cgr>}}12:30pm-2pm Pacific{{</cgr>}} \
 {{<linktitle url="../hpc2" text="Mid-day session">}}
 
-{{<cbr>}}On your own{{</cbr>}} \
-{{<nolinktitle>}}Scheduling{{</nolinktitle>}} \
-{{<nolinktitle>}}Best practices and summary{{</nolinktitle>}}
-
 <!-- {{<cbr>}}On your own{{</cbr>}} \ -->
-<!-- {{<linktitle url="../hpc/hpc-04-scheduling" text="Scheduling (66 min)">}} \ -->
-<!-- {{<linktitle url="../hpc/hpc-05-best-summary" text="Best practices and summary (9 min)">}} -->
+<!-- {{<nolinktitle>}}Scheduling{{</nolinktitle>}} \ -->
+<!-- {{<nolinktitle>}}Best practices and summary{{</nolinktitle>}} -->
+
+{{<cbr>}}On your own{{</cbr>}} \
+{{<linktitle url="../hpc/hpc-04-scheduling" text="Scheduling (66 min)">}} \
+{{<linktitle url="../hpc/hpc-05-best-summary" text="Best practices and summary (9 min)">}}
 
 {{<cor>}}Zoom{{</cor>}} {{<s>}} {{<cgr>}}3:30pm-5pm Pacific{{</cgr>}} \
 {{<nolinktitle>}}Cover challenges, do some exercises, and wrap up the course.{{</nolinktitle>}}
