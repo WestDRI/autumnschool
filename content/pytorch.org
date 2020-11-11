@@ -13,14 +13,14 @@ Course materials will be added here shortly before the start of the school.
 
 {{<br>}}
 
-{{<cor>}}Zoom{{</cor>}} {{<s>}} {{<cgr>}}9–9:15 am Pacific Time{{</cgr>}} \\
-{{<linktitle url="https://westgrid-cli.netlify.app/autumnschool2020/01_pt_intro" text="Introduction to the course">}}
+{{<cor>}}Zoom{{</cor>}} {{<s>}} {{<cgr>}}9–9:30 am Pacific Time{{</cgr>}} \\
+{{<linktitle url="https://westgrid-cli.netlify.app/autumnschool2020/01_pt_intro" text="Introduction to the course & cluster access">}}
 
 {{<cbr>}}On your own{{</cbr>}} \\
-{{<linktitle url="https://westgrid-cli.netlify.app/autumnschool2020/02_pt_ml" text="What are machine learning & deep learning?">}} \\
-{{<linktitle url="https://westgrid-cli.netlify.app/autumnschool2020/03_pt_nn" text="What are artificial neural networks?">}} \\
-{{<linktitle url="https://westgrid-cli.netlify.app/autumnschool2020/04_pt_framework" text="Which ML/DL framework to choose?">}} \\
-{{<linktitle url="https://westgrid-cli.netlify.app/autumnschool2020/05_pt_install" text="(Optional) Installing PyTorch locally">}} \\
+{{<linktitle url="https://westgrid-cli.netlify.app/autumnschool2020/02_pt_ml" text="AI, machine learning, deep learning">}} \\
+{{<linktitle url="https://westgrid-cli.netlify.app/autumnschool2020/03_pt_nn" text="Artificial neural networks">}} \\
+{{<linktitle url="https://westgrid-cli.netlify.app/autumnschool2020/04_pt_framework" text="Which framework to choose?">}} \\
+{{<linktitle url="https://westgrid-cli.netlify.app/autumnschool2020/05_pt_install" text="(Optional) Local installation">}} \\
 {{<linktitle url="https://westgrid-cli.netlify.app/autumnschool2020/06_pt_doc" text="Documentation">}}
 
 {{<cor>}}Zoom{{</cor>}} {{<s>}} {{<cgr>}}11:15 am–12:15 pm Pacific Time{{</cgr>}} \\
