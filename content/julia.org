@@ -13,24 +13,46 @@ Course materials will be added here shortly before the start of the school.
 
 {{<br>}}
 
+# {{<cor>}}Zoom{{</cor>}} {{<s>}} {{<cgr>}}9–9:15 am Pacific Time{{</cgr>}} \\
+# {{<linktitle url="https://westgrid-julia.netlify.app/autumnschool2020/01_jl_intro" text="Introduction to the course">}}
+
+# {{<cbr>}}On your own{{</cbr>}} \\
+# {{<linktitle url="https://westgrid-julia.netlify.app/autumnschool2020/02_jl_why" text="Why another programming language?">}} \\
+# {{<linktitle url="https://westgrid-julia.netlify.app/autumnschool2020/03_jl_install" text="(Optional) Local installation">}} \\
+# {{<linktitle url="https://westgrid-julia.netlify.app/autumnschool2020/04_jl_doc" text="Documentation">}} \\
+# {{<linktitle url="https://westgrid-julia.netlify.app/autumnschool2020/05_jl_repl" text="The Julia REPL">}} \\
+# {{<linktitle url="https://westgrid-julia.netlify.app/autumnschool2020/06_jl_pkg" text="Packages">}}
+
+# {{<cor>}}Zoom{{</cor>}} {{<s>}} {{<cgr>}}10:30 am–noon Pacific Time{{</cgr>}} \\
+# {{<linktitle url="https://westgrid-julia.netlify.app/autumnschool2020/07_jl_questions" text="Questions so far">}} \\
+# {{<linktitle url="https://westgrid-julia.netlify.app/autumnschool2020/08_jl_basics" text="Julia basics">}}
+
+# {{<cbr>}}On your own{{</cbr>}} \\
+# {{<linktitle url="https://westgrid-julia.netlify.app/autumnschool2020/09_jl_plotting" text="Plotting">}} \\
+# {{<linktitle url="https://westgrid-julia.netlify.app/autumnschool2020/10_jl_hpc" text="Julia on Compute Canada clusters">}}
+
+# {{<cor>}}Zoom{{</cor>}} {{<s>}} {{<cgr>}}2–5 pm Pacific Time{{</cgr>}} \\
+# {{<linktitle url="https://westgrid-julia.netlify.app/autumnschool2020/11_jl_parallel" text="Parallel computing in Julia">}} \\
+# {{<linktitle url="https://westgrid-julia.netlify.app/autumnschool2020/12_jl_wrapup" text="Final questions">}}
+
 {{<cor>}}Zoom{{</cor>}} {{<s>}} {{<cgr>}}9–9:15 am Pacific Time{{</cgr>}} \\
-{{<linktitle url="https://westgrid-julia.netlify.app/autumnschool2020/01_jl_intro" text="Introduction to the course">}}
+{{<nolinktitle>}}Introduction to the course{{</nolinktitle>}}
 
 {{<cbr>}}On your own{{</cbr>}} \\
-{{<linktitle url="https://westgrid-julia.netlify.app/autumnschool2020/02_jl_why" text="Why another programming language?">}} \\
-{{<linktitle url="https://westgrid-julia.netlify.app/autumnschool2020/03_jl_install" text="(Optional) Installing Julia on your machine">}} \\
-{{<linktitle url="https://westgrid-julia.netlify.app/autumnschool2020/04_jl_doc" text="Documentation">}} \\
-{{<linktitle url="https://westgrid-julia.netlify.app/autumnschool2020/05_jl_repl" text="The Julia REPL">}} \\
-{{<linktitle url="https://westgrid-julia.netlify.app/autumnschool2020/06_jl_pkg" text="Packages">}}
+{{<nolinktitle>}}Why another programming language?{{</nolinktitle>}} \\
+{{<nolinktitle>}}(Optional) Local installation{{</nolinktitle>}} \\
+{{<nolinktitle>}}Documentation{{</nolinktitle>}} \\
+{{<nolinktitle>}}The Julia REPL{{</nolinktitle>}} \\
+{{<nolinktitle>}}Packages{{</nolinktitle>}}
 
 {{<cor>}}Zoom{{</cor>}} {{<s>}} {{<cgr>}}10:30 am–noon Pacific Time{{</cgr>}} \\
-{{<linktitle url="https://westgrid-julia.netlify.app/autumnschool2020/07_jl_questions" text="Questions so far">}} \\
-{{<linktitle url="https://westgrid-julia.netlify.app/autumnschool2020/08_jl_basics" text="Julia basics">}}
+{{<nolinktitle>}}Questions so far{{</nolinktitle>}} \\
+{{<nolinktitle>}}Julia basics{{</nolinktitle>}}
 
 {{<cbr>}}On your own{{</cbr>}} \\
-{{<linktitle url="https://westgrid-julia.netlify.app/autumnschool2020/09_jl_plotting" text="Plotting">}} \\
-{{<linktitle url="https://westgrid-julia.netlify.app/autumnschool2020/10_jl_hpc" text="Julia on Compute Canada clusters">}}
+{{<nolinktitle>}}Plotting{{</nolinktitle>}} \\
+{{<nolinktitle>}}Julia on Compute Canada clusters{{</nolinktitle>}}
 
 {{<cor>}}Zoom{{</cor>}} {{<s>}} {{<cgr>}}2–5 pm Pacific Time{{</cgr>}} \\
-{{<linktitle url="https://westgrid-julia.netlify.app/autumnschool2020/11_jl_parallel" text="Parallel computing in Julia">}} \\
-{{<linktitle url="https://westgrid-julia.netlify.app/autumnschool2020/12_jl_wrapup" text="Final questions">}}
+{{<nolinktitle>}}Parallel computing in Julia{{</nolinktitle>}} \\
+{{<nolinktitle>}}Final questions{{</nolinktitle>}}
