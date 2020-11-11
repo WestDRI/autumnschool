@@ -38,8 +38,6 @@ Course materials will be added here shortly before the start of the school.
 {{<linktitle url="https://westgrid-cli.netlify.app/autumnschool2020/14_pt_ournn" text="Our NN to classify the MNIST">}} \\
 {{<linktitle url="https://westgrid-cli.netlify.app/autumnschool2020/15_pt_wrapup" text="Final questions">}}
 
----
-
 {{<clg>}}(Additional readings){{</clg>}} \\
 {{<linktitle url="https://westgrid-cli.netlify.app/autumnschool2020/16_pt_hpc" text="Running ML jobs on Compute Canada clusters">}} \\
 {{<linktitle url="https://westgrid-cli.netlify.app/autumnschool2020/17_pt_distributed" text="Distributed computing with PyTorch">}}
