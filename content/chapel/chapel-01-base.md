@@ -123,7 +123,7 @@ $ cat slurm-jobID.out
 - its border is in contact with a different temperature distribution (**_boundary conditions_**)
 - want to simulate the evolution of the temperature across the plate
 
-To solve the 2nd-order hear diffusion equation, we need to **_discretize_** it, i.e., to consider the
+To solve the 2nd-order heat diffusion equation, we need to **_discretize_** it, i.e., to consider the
 plate as a grid of points, and to evaluate the temperature on each point at each iteration, according to
 the following **_finite difference equation_**:
 
