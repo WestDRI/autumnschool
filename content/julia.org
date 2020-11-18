@@ -16,7 +16,7 @@ Course materials will be added here shortly before the start of the school.
 {{<br>}}
 
 # {{<cor>}}Zoom{{</cor>}} {{<s>}} {{<cgr>}}9–9:15 am Pacific Time{{</cgr>}} \\
-# {{<linktitle url="https://westgrid-julia.netlify.app/autumnschool2020/01_jl_intro" text="Introduction to the course">}}
+# {{<linktitle url="https://westgrid-julia.netlify.app/autumnschool2020/01_jl_intro" text="Introduction to the course & cluster access">}}
 
 # {{<cbr>}}On your own{{</cbr>}} \\
 # {{<linktitle url="https://westgrid-julia.netlify.app/autumnschool2020/02_jl_why" text="Why another programming language?">}} \\
