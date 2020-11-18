@@ -140,16 +140,10 @@ np.arange(10) / np.arange(1,11)  # this is np.array([ 0/1, 1/2, 2/3, 3/4, ..., 9
 ~~~
 
 > **[Exercise](./solai.md)**: Let's verify the equation
-> <img src="https://raw.githubusercontent.com/razoumov/publish/master/eq001.png" height="80" />
+> {{< figure src="/images/eq001.png" >}}
 > using summation of elements of an `ndarray`.
 >
 > **Hint**: Start with the first 10 terms `k = np.arange(1,11)`. Then try the first 30 terms.
-
-
-
-
-
-
 
 An extremely useful feature of ufuncs is the ability to operate between arrays of different sizes and shapes, a set of
 operations known as *broadcasting*.

@@ -31,10 +31,9 @@ weight = 1
 
 # Running Chapel codes on Cedar / Graham / Beluga
 
-On Compute Canada clusters Cedar and Graham we have two versions of Chapel, one is a single-locale
-(single-node) Chapel, and the other is a multi-locale (multi-node) Chapel. For now, we will start with
-single-locale Chapel. If you are logged into Cedar or Graham, you'll need to load the single-locale
-Chapel module:
+On Compute Canada clusters Cedar and Graham we have two versions of Chapel, one is a single-locale (single-node) Chapel,
+and the other is a multi-locale (multi-node) Chapel. For now, we will start with single-locale Chapel. If you are logged
+into Cedar or Graham, you'll need to load the single-locale Chapel module:
 
 ~~~ {.bash}
 $ module spider chapel     # list all Chapel modules
@@ -43,8 +42,8 @@ $ module load gcc chapel-single/1.15.0
 
 # Running Chapel codes inside a Docker container
 
-If you are familiar with Docker and have it installed, you can run multi-locale Chapel inside a Docker
-container (e.g., on your laptop, or inside an Ubuntu VM on Arbutus):
+If you are familiar with Docker and have it installed, you can run multi-locale Chapel inside a Docker container (e.g.,
+on your laptop, or inside an Ubuntu VM on Arbutus):
 
 ~~~ {.bash}
 docker pull chapel/chapel-gasnet   # will emulate a cluster with 4 cores/node
@@ -60,11 +59,10 @@ chpl test.chpl -o test
 
 # Running Chapel codes on the training cluster `cassiopeia.c3.ca`
 
-If you are working on the training cluster VM (Cassiopeia), please instead load Chapel from the admin's
-directory:
+If you are working on *cassiopeia.c3.ca* training cluster, please load Chapel from the shared project directory:
 
 ~~~ {.bash}
-$ source /project/shared/startSingleLocale.sh
+$ source /project/60302/shared/startSingleLocale.sh
 ~~~
 
 Let's write a simple Chapel code, compile and run it:
@@ -125,7 +123,7 @@ $ cat slurm-jobID.out
 - its border is in contact with a different temperature distribution (**_boundary conditions_**)
 - want to simulate the evolution of the temperature across the plate
 
-To solve the 2nd-order hear diffusion equation, we need to **_discretize_** it, i.e., to consider the
+To solve the 2nd-order heat diffusion equation, we need to **_discretize_** it, i.e., to consider the
 plate as a grid of points, and to evaluate the temperature on each point at each iteration, according to
 the following **_finite difference equation_**:
 

@@ -94,7 +94,7 @@ If you are working instead on the training VM, please load single-locale Chapel 
 directory:
 
 ~~~ {.bash}
-$ source /project/shared/startSingleLocale.sh
+$ source /project/60302/shared/startSingleLocale.sh
 ~~~
 
 In this lesson, we'll be running on several cores on one node with a script `shared.sh`:
