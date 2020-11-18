@@ -66,6 +66,6 @@ Explain: tab completion, annotating code, displaying figures inside the notebook
 * Enter - re-enter the cell (border becomes green) from the control mode
 * can enter Latex equations in a markdown cell, e.g. $int_0^\infty f(x)dx$
 
-~~~ {.python}
+```py
 print(1/2)   # to run all commands in the cell, either use the Run button, or press shift+return
-~~~
+```

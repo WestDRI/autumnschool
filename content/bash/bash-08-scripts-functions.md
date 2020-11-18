@@ -11,31 +11,31 @@ could run them later or not have to type them out again? As it turns out, this i
 do. Saving a list of commands to a file is called a "shell script". These shell scripts can be run
 whenever we want, and are a great way to automate our work.
 
-<!-- ~~~ {.bash} -->
+<!-- ```sh -->
 <!-- $ cd ~/Desktop/data-shell/molecules -->
 <!-- $ nano process.sh -->
 <!-- 	#!/bin/bash         # this is called sha-bang; can be omitted for generic (bash/csh/tcsh) commands -->
 <!-- 	echo Looking into file octane.pdb -->
 <!-- 	head -15 octane.pdb | tail -5       # what does it do? -->
 <!-- $ bash process.sh   # the script ran! -->
-<!-- ~~~ -->
+<!-- ``` -->
 
 <!-- Alternatively, you can change file permissions: -->
 
-<!-- ~~~ {.bash} -->
+<!-- ```sh -->
 <!-- $ chmod u+x process.sh -->
 <!-- $ ./process.sh -->
-<!-- ~~~ -->
+<!-- ``` -->
 
 <!-- Let's pass an arbitrary file to it: -->
-<!-- ~~~ {.bash} -->
+<!-- ```sh -->
 <!-- $ nano process.sh -->
 <!-- 	#!/bin/bash -->
 <!-- 	echo Looking into file $1       # $1 means the first argument to the script -->
 <!--     head -15 $1 | tail -5 -->
 <!-- $ ./process cubane.pdb -->
 <!-- $ ./process propane.pdb -->
-<!-- ~~~ -->
+<!-- ``` -->
 
 <!-- * head -15 "$1" | tail -5     # placing in double-quotes lets us pass filenames with spaces -->
 <!-- * head $2 $1 | tail $3        # what will this do? -->
@@ -65,7 +65,7 @@ Here is a an example of processing files with scripts:
 
 <!-- Let's write and run the following script: -->
 
-<!-- ~~~ {.bash} -->
+<!-- ```sh -->
 <!-- $ nano check.sh -->
 <!--     for f in $@ -->
 <!--     do -->
@@ -78,11 +78,11 @@ Here is a an example of processing files with scripts:
 <!--     done -->
 <!-- $ chmod u+x check.sh -->
 <!-- $ ./check.sh a b c check.sh -->
-<!-- ~~~ -->
+<!-- ``` -->
 
 <!-- * Full syntax is: -->
 
-<!-- ~~~ {.bash} -->
+<!-- ```sh -->
 <!-- if [ condition1 ] -->
 <!-- then -->
 <!--   command 1 -->
@@ -95,7 +95,7 @@ Here is a an example of processing files with scripts:
 <!-- else -->
 <!--   default command -->
 <!-- fi -->
-<!-- ~~~ -->
+<!-- ``` -->
 
 <!-- Some examples of conditions (**make sure to have spaces around each bracket!**): -->
 
@@ -115,44 +115,44 @@ Here is a an example of processing files with scripts:
 <!-- We already saw variables that were specific to scripts ($1, $@, ...) and to loops ($file). Variables can be used -->
 <!-- outside of scripts: -->
 
-<!-- ~~~ {.bash} -->
+<!-- ```sh -->
 <!-- $ myvar=3        # no spaces permitted around the equality sign! -->
 <!-- $ echo myvar     # will print the string 'myvar' -->
 <!-- $ echo $myvar    # will print the value of myvar -->
-<!-- ~~~ -->
+<!-- ``` -->
 
 <!-- Sometimes you see notation: -->
 
-<!-- ~~~ {.bash} -->
+<!-- ```sh -->
 <!-- $ export myvar=3 -->
-<!-- ~~~ -->
+<!-- ``` -->
 
 <!-- Using 'export' will make sure that all inherited processes of this shell will have access to this -->
 <!-- variable. Try defining the variable *newvar* without/with 'export' and then running the script: -->
 
-<!-- ~~~ {.bash} -->
+<!-- ```sh -->
 <!-- $ nano process.sh -->
 <!-- 	#!/bin/bash -->
 <!--     echo $newvar -->
-<!-- ~~~ -->
+<!-- ``` -->
 
 <!-- You can assign a command's output to a variable to use in another command (this is called *command -->
 <!-- substitution*) -- we'll see this later when we play with 'find' command. -->
 
-<!-- ~~~ {.bash} -->
+<!-- ```sh -->
 <!-- $ printenv    # print all declared variables -->
 <!-- $ env         # same -->
 <!-- $ unset myvar   # unset a variable -->
-<!-- ~~~ -->
+<!-- ``` -->
 
 <!-- Environment variables are those that affect the behaviour of the shell and user interface: -->
 
-<!-- ~~~ {.bash} -->
+<!-- ```sh -->
 <!-- $ echo $HOME -->
 <!-- $ echo $PATH -->
 <!-- $ echo $PWD -->
 <!-- $ echo $PS1 -->
-<!-- ~~~ -->
+<!-- ``` -->
 
 <!-- It is best to define custom environment variables inside your ~/.bashrc file. It is loaded every time you -->
 <!-- start a new shell. -->
@@ -175,34 +175,34 @@ start a new shell (local or remote).
 <!-- Like in any programming language, in bash a function is a block of code that you can access by its -->
 <!-- name. The syntax is: -->
 
-<!-- ~~~ {.bash} -->
+<!-- ```sh -->
 <!-- functionName() { -->
 <!--   command 1 -->
 <!--   command 2 -->
 <!--   ... -->
 <!-- } -->
-<!-- ~~~ -->
+<!-- ``` -->
 
 <!-- Inside functions you can access its arguments with variables $1 $2 ... $# $@ -- exactly the same as in -->
 <!-- scripts. Functions are very convenient because you can define them inside your ~/.bashrc -->
 <!-- file. Alternatively, you can place them into a file and then **source** them whenever needed: -->
 
-<!-- ~~~ {.bash} -->
+<!-- ```sh -->
 <!-- $ source allMyFunctions.sh -->
-<!-- ~~~ -->
+<!-- ``` -->
 
 <!-- Here is our first function: -->
 
-<!-- ~~~ {.bash} -->
+<!-- ```sh -->
 <!-- greetings() { -->
 <!--   echo hello -->
 <!-- } -->
-<!-- ~~~ -->
+<!-- ``` -->
 
 <!-- Let's write a function 'combine()' that takes all the files we pass to it, copies them into a -->
 <!-- randomly-named directory and prints that directory to the screen: -->
 
-<!-- ~~~ {.bash} -->
+<!-- ```sh -->
 <!-- combine() { -->
 <!--   if [ $# -eq 0 ]; then -->
 <!--     echo "No arguments specified. Usage: combine file1 [file2 ...]" -->
@@ -213,7 +213,7 @@ start a new shell (local or remote).
 <!--   cp $@ $dir -->
 <!--   echo look in the directory $dir -->
 <!-- } -->
-<!-- ~~~ -->
+<!-- ``` -->
 
 <!-- > **Exercise:** write a function to swap two file names. Add a check that both files exist, before -->
 <!-- > renaming them. -->

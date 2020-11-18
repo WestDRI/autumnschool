@@ -19,13 +19,13 @@ bindings and fuzzy completion.
 source ~user120/shared/fzf/.fzf.bash
 ```
 
-<!-- ~~~ {.bash} -->
+<!-- ```sh -->
 <!-- $ source /project/shared/fzf/.fzf.bash     # each user in each shell or put it into your ~/.bashrc -->
 <!-- $ fzf -->
 <!-- $ nano $(fzf --height 40%) -->
 <!-- $ kill -9 `/bin/ps aux | fzf | awk '{print $2}'` -->
 <!-- $ e `find ~/Documents/ -type f | fzf` -->
-<!-- ~~~ -->
+<!-- ``` -->
 
 <!-- 11-fzf.mkv -->
 {{< yt Mq6Vs9v_VAI 63 >}}

@@ -14,10 +14,10 @@ Covered topics: `pwd`, `ls`, absolute vs. relative paths, command flags, `cd`, p
 
 Covered topics: `man`, navigating manual pages, `--help` flag.
 
-<!-- ~~~ {.bash} -->
+<!-- ```sh -->
 <!-- $ man ls -->
 <!-- $ ls --help -->
-<!-- ~~~ -->
+<!-- ``` -->
 
 <!-- > Question: Looking at `ls` documentation, what does the -h (--human-readable) option do? -->
 

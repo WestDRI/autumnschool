@@ -6,13 +6,13 @@ weight = 9
 
 ## Searching inside files with `grep` (4 min)
 
-<!-- ~~~ {.bash} -->
+<!-- ```sh -->
 <!-- $ cd ~/Desktop/data-shell/writing -->
 <!-- $ more haiku.txt -->
-<!-- ~~~ -->
+<!-- ``` -->
 
 <!-- First let's search for text in files: -->
-<!-- ~~~ {.bash} -->
+<!-- ```sh -->
 <!-- $ grep not haiku.txt     # let's find all lines that contain the word 'not' -->
 <!-- $ grep day haiku.txt     # now search for word 'day' -->
 <!-- $ grep -w day haiku.txt        # search for a separate word 'day' (not 'today', etc.) -->
@@ -22,13 +22,13 @@ weight = 9
 <!-- $ grep -n -i -w today haiku.txt    # -n prints out numbers the matching lines -->
 <!-- $ grep -n -i -w -v the haiku.txt   # -v searches for lines that do not contain 'the' -->
 <!-- $ man grep -->
-<!-- ~~~ -->
+<!-- ``` -->
 
 <!-- More than two arguments to grep: -->
-<!-- ~~~ {.bash} -->
+<!-- ```sh -->
 <!-- $ grep pattern file1 file2 file3   # all argument after the first one are assumed to be filenames -->
 <!-- $ grep pattern *.txt   # the last argument will expand to the list of *.txt files -->
-<!-- ~~~ -->
+<!-- ``` -->
 
 <!-- > **Quiz 12:** grep command. -->
 
@@ -38,7 +38,7 @@ weight = 9
 ## Finding files with `find` (5 min)
 
 <!-- Now on to finding files: -->
-<!-- ~~~ {.bash} -->
+<!-- ```sh -->
 <!-- cd ~/Desktop/data-shell/writing -->
 <!-- $ find . -type d     # search for directories inside current directory -->
 <!-- $ find . -type f     # search for files inside current directory -->
@@ -48,16 +48,16 @@ weight = 9
 <!-- $ ls data       # shows one.txt two.txt -->
 <!-- $ find . -name *.txt      # still finds one file -- why? answer: expands *.txt to haiku.txt -->
 <!-- $ find . -name '*.txt'    # finds all three files -- good! -->
-<!-- ~~~ -->
+<!-- ``` -->
 
 <!-- Let's wrap the last command into $() (called *command substitution*), as if it was a variable: -->
 
-<!-- ~~~ {.bash} -->
+<!-- ```sh -->
 <!-- $ echo $(find . -name '*.txt')   # will print ./data/one.txt ./data/two.txt ./haiku.txt -->
 <!-- $ ls -l $(find . -name '*.txt')   # will expand to ls -l ./data/one.txt ./data/two.txt ./haiku.txt -->
 <!-- $ wc -l $(find . -name '*.txt')   # will expand to wc -l ./data/one.txt ./data/two.txt ./haiku.txt -->
 <!-- $ grep elegant $(find . -name '*.txt')   # will look for 'elegant' inside all *.txt files -->
-<!-- ~~~ -->
+<!-- ``` -->
 
 <!-- > **Quiz 13:** combining grep and find. -->
 
@@ -72,18 +72,18 @@ weight = 9
 
 <!-- You always can do something like this: -->
 
-<!-- ~~~ {.bash} -->
+<!-- ```sh -->
 <!-- $ for f in $(find . -name "*.txt") -->
 <!-- > do -->
 <!-- >   command on $f -->
 <!-- > done -->
-<!-- ~~~ -->
+<!-- ``` -->
 
 <!-- However, you can actually make it a one-liner: -->
 
-<!-- ~~~ {.bash} -->
+<!-- ```sh -->
 <!-- find . -name "*.txt" -exec command {} \;       # important to have spaces -->
-<!-- ~~~ -->
+<!-- ``` -->
 
 <!-- -- this will run the command on each item in the output of find. -->
 

@@ -55,9 +55,9 @@ that comes with its own terminal emulator and a simple interface for remote SSH 
 
 Let's log in to *cassiopeia.c3.ca* using a username userXXX (where XXX is three digits):
 
-~~~ {.bash}
+```sh
 [local]$ ssh userXXX@cassiopeia.c3.ca   # password supplied by the instructor
-~~~
+```
 
 - those on Windows please use MobaXterm: click on Session | SSH, and then fill in the Remote host name
   and your username.

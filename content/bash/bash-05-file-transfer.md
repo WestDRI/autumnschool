@@ -8,26 +8,26 @@ weight = 5
 
 <!-- To copy a single file to/from the cluster, we can use `scp`: -->
 
-<!-- ~~~ {.bash} -->
+<!-- ```sh -->
 <!-- [local]$ scp /path/to/local/file.txt userXXX@cassiopeia.c3.ca:/path/on/remote/computer -->
 <!-- [local]$ scp local-file.txt userXXX@cassiopeia.c3.ca:   # will put into your remote home -->
 <!-- [local]$ scp userXXX@cassiopeia.c3.ca:/path/on/remote/computer/file.txt /path/to/local/ -->
-<!-- ~~~ -->
+<!-- ``` -->
 
 <!-- 05-scp.mkv -->
 {{< yt 6iqwJWGJ6es 63 >}}
 
 To recursively copy a directory, we just add the `-r` (recursive) flag:
 
-~~~ {.bash}
+```sh
 [local]$ scp -r some-local-folder/ userXXX@cassiopeia.c3.ca:target-directory/
-~~~
+```
 
 You can also use wildcards to transfer multiple files:
 
-~~~ {.bash}
+```sh
 [local]$ scp centos@cassiopeia.c3.ca:start*.sh .
-~~~~
+~```
 
 With MobaXterm in Windows, you can actually copy files by dragging them between your desktop and the left
 pane when you are logged into the cluster (no need to type any commands), or you can click the
@@ -46,14 +46,14 @@ download/upload buttons.
 we're simply not sure which files we want to transfer yet. `sftp` is an interactive way of downloading
 and uploading files. Let's connect to a cluster with `sftp`:
 
-~~~ {.bash}
+```sh
 [local]$ sftp userXXX@cassiopeia.c3.ca
-~~~
+```
 
 This will start what appears to be a shell with the prompt `sftp>`. However, we only have access to a
 limited number of commands. We can see which commands are available with `help`:
 
-~~~ {.bash}
+```sh
 sftp> help
 Available commands:
 bye                                Quit sftp
@@ -75,12 +75,12 @@ ln [-s] oldpath newpath            Link remote file (-s for symlink)
 lpwd                               Print local working directory
 ls [-1afhlnrSt] [path]             Display remote directory listing
 ...
-~~~
+```
 
 Notice the presence of multiple commands that make mention of local and remote. We are actually browsing
 two filesystems at once, with two working directories!
 
-~~~ {.bash}
+```sh
 sftp> pwd    # show our remote working directory
 sftp> lpwd   # show our local working directory
 sftp> ls     # show the contents of our remote directory
@@ -89,15 +89,15 @@ sftp> cd     # change the remote directory
 sftp> lcd    # change the local directory
 sftp> put localFile    # upload a file
 sftp> get remoteFile   # download a file
-~~~
+```
 
 And we can recursively put/get files by just adding `-r`. Note that the directory needs to be present
 beforehand:
 
-~~~ {.bash}
+```sh
 sftp> mkdir content
 sftp> put -r content/
-~~~
+```
 
 To quit, type `exit` or `bye`. 
 

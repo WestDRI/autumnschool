@@ -11,7 +11,7 @@ weight = 2
   *print*
 * Python is case-sensitive
 
-~~~ {.python}
+```py
 age = 100
 firstName = 'Jason'
 print(firstName, 'is', age, 'years old')
@@ -19,16 +19,16 @@ a = 1; b = 2    # can use ; to separate multiple commands in one line
 a, b = 1, 2   # assign variables in a tuple notation; same as last line
 a = b = 10    #  assign a value to multiple variables at the same time
 b = "now I am a string"    # variables can change their type on the fly
-~~~
+```
 
 * variables persist between cells
 * variables must be defined before use
 * variables can be used in calculations
 
-~~~ {.python}
+```py
 age = age + 3   # another syntax: age += 3
 print('age in three years:', age)
-~~~
+```
 
 **Quiz 1:** predicting values
 
@@ -37,7 +37,7 @@ distinct objects in memory: `initial` and `position`.
 
 > Note: With more complex objects, its name could be a pointer. E.g. when we study lists, we'll see that `initial` and
 > `new` below really point to the same list in memory:
-> ~~~
+> ```
 > initial = [1,2,3]
 > new = initial        # create a pointer to the same object
 > initial.append(4)    # change the original list to [1, 2, 3, 4]
@@ -45,14 +45,14 @@ distinct objects in memory: `initial` and `position`.
 > new = initial[:]     # one way to create a new object in memory
 > import copy
 > new = copy.deepcopy(initial)   # another way to create a new object in memory
-> ~~~
+> ```
 
 Use square brackets to get a substring:
-~~~ {.python}
+```py
 element = 'helium'
 print(element[0])   # single character
 print(element[0:3])   # a substring
-~~~
+```
 
 **Quiz 2:** getting the second digit of a number (not a string!)
 
@@ -61,20 +61,20 @@ print(element[0:3])   # a substring
 
 ## Data Types and Type Conversion
 
-~~~ {.python}
+```py
 print(type(52))
 print(type(52.))
 print(type('52'))
-~~~
+```
 
-~~~ {.python}
+```py
 print(name+' Smith')   # can add strings
 print(name*10)         # can replicate strings by mutliplying by a number
 print(len(name))       # strings have lengths
-~~~
+```
 
-~~~ {.python}
+```py
 print(1+'a')           # cannot add strings and numbers
 print(str(1)+'a')   # this works
 print(1+int('2'))   # this works
-~~~
+```

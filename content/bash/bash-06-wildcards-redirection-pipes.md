@@ -9,7 +9,7 @@ weight = 6
 <!-- * open http://bit.ly/bashfile in your browser, it'll download the file bfiles.zip -->
 <!-- * unpack bfiles.zip to your Desktop; you should see ~/Desktop/data-shell -->
 
-<!-- ~~~ {.bash} -->
+<!-- ```sh -->
 <!-- $ cd <parentDirectoryOf`data-shell`> -->
 <!-- $ ls data-shell -->
 <!-- $ cd data-shell/molecules -->
@@ -23,7 +23,7 @@ weight = 6
 <!-- $ sort -n lengths.txt > sorted.txt -->
 <!-- $ head -1 sorted.txt   # show the length of the shortest (number of lines) file -->
 <!-- $ wc -l *.pdb | sort -n | head -1   # three commands can be shortened to one - this is called Unix pipe -->
-<!-- ~~~ -->
+<!-- ``` -->
 
 <!-- Standard input of a process. Standard output of a process. Pipes connect the two. -->
 
@@ -35,7 +35,7 @@ constructing complex commands with Unix pipes.
 <!-- > **Exercise:** build a single command to show the lenth of the longest (number of lines) file -->
 
 <!-- > **Exercise:** Try to explain the difference between these two commands: -->
-<!-- > ~~~ {.bash} -->
+<!-- > ```sh -->
 <!-- > echo hello > test.txt -->
 <!-- > echo hello >> test.txt -->
 <!-- > ~~~ -->
@@ -48,7 +48,7 @@ constructing complex commands with Unix pipes.
 
 Aliases are one-line shortcuts/abbreviation to avoid typing a longer command, e.g.
 
-~~~ {.bash}
+```sh
 $ alias ls='ls -aFh'
 $ alias pwd='pwd -P'
 $ alias hi='history'
@@ -56,7 +56,7 @@ $ alias top='top -o cpu -s 10 -stats "pid,command,cpu,mem,threads,state,user"'
 $ alias cedar='ssh -Y cedar.computecanada.ca'
 $ alias weather='curl wttr.in/vancouver'
 $ alias cal='gcal --starting-day=1'  # starts on Monday
-~~~
+```
 
 Now, instead of typing `ssh -Y cedar.computecanada.ca`, you can simply type `cedar`. To see all your
 defined aliases, type `alias`. To remove, e.g. the alias `cedar`, type `unalias cedar`.

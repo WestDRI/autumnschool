@@ -9,41 +9,41 @@ weight = 8
 
 First define:
 
-~~~ {.python}
+```py
 def greeting():
     print('Hello!')
-~~~
+```
 
 and then we can run it:
 
-~~~ {.python}
+```py
 greeting()
-~~~
+```
 
-~~~ {.python}
+```py
 def printDate(year, month, day):
     joined = str(year) + '/' + str(month) + '/' + str(day)
     print(joined)
 printDate(1871, 3, 19)
-~~~
+```
 
 Every function returns something, even if it's None.
 
-~~~ {.python}
+```py
 a = printDate(1871, 3, 19)
 print(a)
-~~~
+```
 
 How do we actually return a value from a function?
 
-~~~ {.python}
+```py
 def average(values):   # the argument is a list
     if len(values) == 0:
         return None
     return sum(values) / len(values)
 a = average([1, 3, 4])
 print('average of actual values:', a)
-~~~
+```
 
 **Quiz 5:** convert from Fahrenheit to Celsius
 
@@ -53,26 +53,26 @@ print('average of actual values:', a)
 	
 Function arguments in Python can take default values becoming optional:
 
-~~~ {.python}
+```py
 def addNumber(a, b=1):
     return a+b
 print(addNumber(5))
 print(addNumber(5,3))
-~~~
+```
 
 With several optional arguments it is important to be able to differentiate them:
 
-~~~ {.python}
+```py
 def modify(a, b=1, coef=1):
     return a*coef + b
 print(modify(10))
 print(modify(10, 1))   # which argument did we add?
 print(modify(10, coef=2))
 print(modify(10, coef=2, b=5))
-~~~
+```
 
 Any complex python function will have many optional arguments, for example:
 
-~~~ {.python}
+```py
 ?print
-~~~
+```

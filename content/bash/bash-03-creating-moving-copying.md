@@ -9,7 +9,7 @@ weight = 3
 Covered topics: creating directories with `mkdir`, using `nano` text editor, deleting with `rm` and
 `rmdir`.
 
-<!-- ~~~ {.bash} -->
+<!-- ```sh -->
 <!-- $ mkdir thesis -->
 <!-- $ ls -F -->
 <!-- $ ls -F thesis -->
@@ -22,7 +22,7 @@ Covered topics: creating directories with `mkdir`, using `nano` text editor, del
 <!-- $ rmdir thesis   # again getting an error - why? -->
 <!-- $ rm thesis/draft.txt -->
 <!-- $ rmdir thesis -->
-<!-- ~~~ -->
+<!-- ``` -->
 
 <!-- Also could do 'rm -r thesis' in lieu of the last two commands. -->
 
@@ -33,7 +33,7 @@ Covered topics: creating directories with `mkdir`, using `nano` text editor, del
 
 Covered topics: `mv` and `cp`.
 
-<!-- ~~~ {.bash} -->
+<!-- ```sh -->
 <!-- $ mkdir thesis -->
 <!-- $ nano thesis/draft.txt -->
 <!-- $ ls thesis -->
@@ -43,23 +43,23 @@ Covered topics: `mv` and `cp`.
 <!-- $ ls thesis -->
 <!-- $ ls -->
 <!-- $ ls quotes.txt -->
-<!-- ~~~ -->
+<!-- ``` -->
 
-<!-- ~~~ {.bash} -->
+<!-- ```sh -->
 <!-- $ cp quotes.txt thesis/quotations.txt -->
 <!-- $ ls quotes.txt thesis/quotations.txt -->
 <!-- $ rm quotes.txt -->
 <!-- $ ls quotes.txt thesis/quotations.txt -->
-<!-- ~~~ -->
+<!-- ``` -->
 
 <!-- More than two arguments to mv/cp: -->
-<!-- ~~~ {.bash} -->
+<!-- ```sh -->
 <!-- $ touch  intro.txt  methods.txt  index.txt   # create three empty files -->
 <!-- $ ls -->
 <!-- $ mv  intro.txt  methods.txt  index.txt  thesis   # the last argument is the destination directory -->
 <!-- $ ls -->
 <!-- $ ls thesis -->
-<!-- ~~~ -->
+<!-- ``` -->
 
 <!-- > **Quiz 5:** Suppose that you created a .txt file in your current directory to contain a list of the -->
 <!-- > statistical tests you will need to do to analyze your data, and named it: statstics.txt. After creating -->

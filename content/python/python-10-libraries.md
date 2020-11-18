@@ -13,29 +13,29 @@ A library is a collection of functions that can be used by other programs. Pytho
 functions we worked with before (print, int, round, ...) and is included with Python. There are many other additional
 modules in the standard library such as math:
 
-~~~ {.python}
+```py
 print('pi is', pi)
 import math
 print('pi is', math.pi)
-~~~
+```
 
 You can also import math's items directly:
 
-~~~ {.python}
+```py
 from math import pi, sin
 print('pi is', pi)
 sin(pi/6)
 cos(pi)
 help(math)   # help for libraries works just like help for functions
 from math import *
-~~~
+```
 
 You can also create an alias from the library:
 
-~~~ {.python}
+```py
 import math as m
 print m.pi
-~~~
+```
 
 **Quiz 8:** exploring the math library
 
@@ -52,15 +52,15 @@ print m.pi
 
 To install a package into the current Python environment from inside a Jupyter notebook, simply do:
 
-~~~
+```sh
 %pip install packageName
-~~~
+```
 
 In Python you can create an isolated environment for each project, into which all of its dependencies will be
 installed. This could be useful if your several projects have very different sets of dependencies. On the computer
 running your Jupyter notebooks, open the terminal and type:
 
-~~~
+```sh
 pip install virtualenv
 virtualenv climate   # create a new virtual environment in your current directory
 source climate/bin/activate
@@ -70,7 +70,7 @@ pip install ipykernel   # install ipykernel (IPython kernel for Jupyter) into th
 python -m ipykernel install --user --name=climate   # add your environment to Jupyter
 ...
 deactivate
-~~~
+```
 
 Quit all your currently running Jupyter notebooks and the Jupyter dashboard. If running on syzygy.ca, logout from your
 session and then log back in.
@@ -80,8 +80,8 @@ should be `climate`.
 
 To delete the environment, in the terminal type:
 
-~~~
+```sh
 jupyter kernelspec list                  # `climate` should be one of them
 jupyter kernelspec uninstall climate     # remove your environment from Jupyter
 /bin/rm -rf climate
-~~~
+```

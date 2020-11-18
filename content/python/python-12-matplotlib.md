@@ -8,7 +8,7 @@ weight = 12
 
 One of the most widely used Python plotting libraries is matplotlib. Matplotlib is open source and produces static images.
 
-~~~
+```py
 %matplotlib inline
 import matplotlib.pyplot as plt
 plt.figure(figsize=(10,8))
@@ -20,14 +20,14 @@ plt.xlabel('x', fontsize=18)
 plt.ylabel('f(x)', fontsize=18)
 # plt.show()       # not needed inside the Jupyter notebook
 # plt.savefig('tmp.png')
-~~~
+```
 
 <img src="https://raw.githubusercontent.com/razoumov/publish/master/styles.png" height="300" />
 
 Let's add the second line, the labels, and the legend. Note that matplotlib automatically adjusts the axis ranges to fit
 both plots:
 
-~~~
+```py
 %matplotlib inline
 import matplotlib.pyplot as plt
 plt.figure(figsize=(10,8))
@@ -39,11 +39,11 @@ plt.plot(x+0.3, 2*sin(10*x), 'r-', label='two')
 plt.legend(loc='lower right')
 plt.xlabel('x', fontsize=18)
 plt.ylabel('f(x)', fontsize=18)
-~~~
+```
 
 Let's plot these two functions side-by-side:
 
-~~~
+```py
 %matplotlib inline
 import matplotlib.pyplot as plt
 fig = plt.figure(figsize=(12,4))
@@ -61,7 +61,7 @@ ax = fig.add_subplot(122)   # on 1x2 layout create plot #2
 a2 = plt.plot(x+0.2, 2*sin(10*x), 'r-', label='two')
 plt.xlabel('x')
 plt.ylabel('f2')
-~~~
+```
 
 Instead of indices, we could specify the absolute coordinates of each plot with `fig.add_axes()`:
 
@@ -72,17 +72,17 @@ Instead of indices, we could specify the absolute coordinates of each plot with 
 The 3rd option is `plt.axes()` -- it creates an `axes` object (a region of the figure with some data space). These two
 lines are equivalent - both create a new figure with one subplot:
 
-~~~
+```py
 fig = plt.figure(figsize=(8,8)); ax = fig.add_subplot(111)
 fig = plt.figure(figsize=(8,8)); ax = plt.axes()
-~~~
+```
 
 **[Exercise](sol02.md):** break the plot into two subplots, the fist taking 1/3 of the space on the left, the second one
 2/3 of the space on the right.
 
 Let's plot a simple line in the x-y plane:
 
-~~~
+```py
 import matplotlib.pyplot as plt
 import numpy as np
 fig = plt.figure(figsize=(12,12))
@@ -91,16 +91,16 @@ x = np.linspace(0,1,100)
 plt.plot(2*np.pi*x, x, 'b-')
 plt.xlabel('x')
 plt.ylabel('f1')
-~~~
+```
 
 Replace `ax = fig.add_subplot(111)` with `ax = fig.add_subplot(111, projection='polar')`. Now we have a plot in the
 phi-r plane, i.e. in polar coordinates. `Phi` goes [0,2\pi], whereas `r` goes [0,1].
 
-~~~
+```py
 ?fig.add_subplot    # look into `projection` parameter
-~~~
+```
 
-~~~
+```py
 import matplotlib.pyplot as plt
 import numpy as np
 fig = plt.figure(figsize=(12,12))
@@ -108,14 +108,14 @@ ax = fig.add_subplot(111, projection='mollweide')
 x = np.radians([30,40, 50])
 y = np.radians([15, 16, 17])
 plt.plot(x, y, 'bo-')
-~~~
+```
 
 Later, we'll learn how to use this `projection` parameter with cartopy to map your 2D data from one projection to
 another.
 
 Let's try a scatter plot:
 
-~~~
+```py
 %matplotlib inline
 import matplotlib.pyplot as plt
 import numpy as np
@@ -124,7 +124,7 @@ x = np.random.random(size=1000)   # 1D array of 1000 random numbers in [0.,1.]
 y = np.random.random(size=1000)
 size = 1 + 50*np.random.random(size=1000)
 plt.scatter(x, y, s=size, color='lightblue')
-~~~
+```
 
 For other plot types click on any example in the [Matplotlib gallery](https://matplotlib.org/gallery).
 
@@ -134,7 +134,7 @@ For colours, see [Choosing Colormaps in Matplotlib](https://matplotlib.org/3.3.1
 
 Let's plot a heatmap of monthly temperatures at the South Pole:
 
-~~~ {.python}
+```py
 %matplotlib inline
 import matplotlib.pyplot as plt
 from matplotlib import cm
@@ -161,7 +161,7 @@ for i in range(len(months)):
     for j in range(len(vlabels)):
         text = plt.text(i, j, Z[j,i],
                        ha="center", va="center", color="w", fontsize=14, weight='bold')
-~~~
+```
 
 **Exercise:** Change the text colour to black in the brightest (green) rows and columns. You can do this either by
 specifying rows/columns explicitly, or (better) by setting a threshold background colour.
@@ -172,20 +172,20 @@ specifying rows/columns explicitly, or (better) by setting a threshold backgroun
 
 For this we need a data file -- let's download it. Open a terminal inside your Jupyter dashboard. Inside the terminal, type:
 
-~~~
+```sh
 wget http://bit.ly/pythfiles -O pfiles.zip
 unzip pfiles.zip && rm pfiles.zip        # this should unpack into the directory data-python/
-~~~
+```
 
 You can now close the terminal panel. Let's switch back to our Python notebook and check our location:
 
-~~~ {.python}
+```py
 %pwd       # simply run a bash command with a prefix
 %ls        # make sure you see data-python/
 
 Let's plot tabulated topographic elevation data:
 
-~~~ {.python}
+```py
 from mpl_toolkits.mplot3d import Axes3D
 from matplotlib import cm
 from matplotlib.colors import LightSource
@@ -205,33 +205,33 @@ rgb = ls.shade(z, cmap=cm.gist_earth, vert_exag=0.1, blend_mode='soft')
 fig, ax = plt.subplots(subplot_kw=dict(projection='3d'), figsize=(10,10))    # figure with one subplot
 ax.view_init(20, 30)      # (theta, phi) viewpoint
 surf = ax.plot_surface(x, y, z, facecolors=rgb, linewidth=0, antialiased=False, shade=False)
-~~~
+```
 
 > **Exercise:** replace `fig, ax = plt.subplots()` with `fig = plt.figure()` followed by `ax = fig.add_subplot()`. Don't
 > forget about the `3d` projection.
 
 Let's replace the last two lines with (running this takes ~10s on my laptop):
 
-~~~
+```py
 ax.view_init(20, 30)
 surf = ax.plot_surface(x, y, z, facecolors=rgb, linewidth=0, antialiased=False, shade=False)
 for angle in range(90):
     print(angle)
     ax.view_init(20, 30+angle)
     plt.savefig('frame%04d'%(angle)+'.png')
-~~~
+```
 
 And then we can create a movie in bash:
 
-~~~
+```sh
 ffmpeg -r 30 -i frame%04d.png -c:v libx264 -pix_fmt yuv420p -vf "scale=trunc(iw/2)*2:trunc(ih/2)*2" spin.mp4
-~~~
+```
 
 ## 3D parametric plot
 
 Here is something visually very different, still using `ax.plot_surface()`:
 
-~~~ {.python}
+```py
 from mpl_toolkits.mplot3d import Axes3D
 from matplotlib import cm
 from matplotlib.colors import LightSource
@@ -252,4 +252,4 @@ rgb = ls.shade(z, cmap=cm.gist_earth, vert_exag=0.1, blend_mode='soft')
 fig, ax = plt.subplots(subplot_kw=dict(projection='3d'), figsize=(10,10))
 ax.view_init(20, 30)
 surf = ax.plot_surface(x, y, z, facecolors=rgb, linewidth=0, antialiased=False, shade=False)
-~~~
+```
