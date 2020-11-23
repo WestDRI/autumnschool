@@ -20,7 +20,7 @@ Course materials will be added here shortly before the start of the school.
 
 {{<cbr>}}On your own{{</cbr>}} \\
 {{<linktitle url="https://westgrid-julia.netlify.app/autumnschool2020/02_jl_why" text="Why another programming language?">}} \\
-{{<linktitle url="https://westgrid-julia.netlify.app/autumnschool2020/03_jl_install" text="(Optional) Local installation">}} \\
+{{<linkoptional url="https://westgrid-julia.netlify.app/autumnschool2020/03_jl_install" text="(Optional) Local installation">}} \\
 {{<linktitle url="https://westgrid-julia.netlify.app/autumnschool2020/04_jl_doc" text="Documentation">}} \\
 {{<linktitle url="https://westgrid-julia.netlify.app/autumnschool2020/05_jl_repl" text="The Julia REPL">}} \\
 {{<linktitle url="https://westgrid-julia.netlify.app/autumnschool2020/06_jl_pkg" text="Packages">}}
