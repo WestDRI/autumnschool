@@ -5,6 +5,8 @@ slug = "vis1"
 
 <!-- 1. distribute usernames and passwords (optional, only for quick Plotly practice on Cassiopeia) -->
 
+Please download a [ZIP file](http://bit.ly/paraviewzip) (21 MB) with the slides, sample datasets and scripts inside.
+
 1. instructor / helpers / course introduction
 1. slides for this course
 1. let's try to start ParaView on your computer
