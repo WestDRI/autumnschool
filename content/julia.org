@@ -15,7 +15,7 @@ Course materials will be added here shortly before the start of the school.
 
 {{<br>}}
 
-# {{<cor>}}Zoom{{</cor>}} {{<s>}} {{<cgr>}}9–9:45 am Pacific Time{{</cgr>}} \\
+# {{<cor>}}Zoom{{</cor>}} {{<s>}} {{<cgr>}}9–9:30 am Pacific Time{{</cgr>}} \\
 # {{<linktitle url="https://westgrid-julia.netlify.app/autumnschool2020/01_jl_intro" text="Introduction to the course & cluster access">}}
 
 # {{<cbr>}}On your own{{</cbr>}} \\
@@ -25,18 +25,18 @@ Course materials will be added here shortly before the start of the school.
 # {{<linktitle url="https://westgrid-julia.netlify.app/autumnschool2020/05_jl_repl" text="The Julia REPL">}} \\
 # {{<linktitle url="https://westgrid-julia.netlify.app/autumnschool2020/06_jl_pkg" text="Packages">}}
 
-# {{<cor>}}Zoom{{</cor>}} {{<s>}} {{<cgr>}}Noon–2 pm Pacific Time{{</cgr>}} \\
+# {{<cor>}}Zoom{{</cor>}} {{<s>}} {{<cgr>}}11 am–1 pm Pacific Time{{</cgr>}} \\
 # {{<linktitle url="https://westgrid-julia.netlify.app/autumnschool2020/07_jl_questions" text="Questions so far">}} \\
 # {{<linktitle url="https://westgrid-julia.netlify.app/autumnschool2020/08_jl_basics" text="Julia basics">}}
 
 # {{<cbr>}}On your own{{</cbr>}} \\
-# {{<linktitle url="https://westgrid-julia.netlify.app/autumnschool2020/09_jl_hpc" text="Julia on Compute Canada clusters">}}
+# {{<linktitle url="https://westgrid-julia.netlify.app/autumnschool2020/09_jl_hpc" text="HPC with Julia: a short introduction">}}
 
-# {{<cor>}}Zoom{{</cor>}} {{<s>}} {{<cgr>}}3–5 pm Pacific Time{{</cgr>}} \\
-# {{<linktitle url="https://westgrid-julia.netlify.app/autumnschool2020/10_jl_parallel" text="Parallel computing in Julia">}} \\
+# {{<cor>}}Zoom{{</cor>}} {{<s>}} {{<cgr>}}2:30 pm–4:30 pm Pacific Time{{</cgr>}} \\
+# {{<linktitle url="https://westgrid-julia.netlify.app/autumnschool2020/10_jl_parallel" text="HPC with Julia: the n-body problem as an example">}} \\
 # {{<linktitle url="https://westgrid-julia.netlify.app/autumnschool2020/11_jl_wrapup" text="Final questions">}}
 
-{{<cor>}}Zoom{{</cor>}} {{<s>}} {{<cgr>}}9–9:45 am Pacific Time{{</cgr>}} \\
+{{<cor>}}Zoom{{</cor>}} {{<s>}} {{<cgr>}}9–9:30 am Pacific Time{{</cgr>}} \\
 {{<nolinktitle>}}Introduction to the course{{</nolinktitle>}}
 
 {{<cbr>}}On your own{{</cbr>}} \\
@@ -46,13 +46,13 @@ Course materials will be added here shortly before the start of the school.
 {{<nolinktitle>}}The Julia REPL{{</nolinktitle>}} \\
 {{<nolinktitle>}}Packages{{</nolinktitle>}}
 
-{{<cor>}}Zoom{{</cor>}} {{<s>}} {{<cgr>}}Noon–2 pm Pacific Time{{</cgr>}} \\
+{{<cor>}}Zoom{{</cor>}} {{<s>}} {{<cgr>}}11 am–1 pm Pacific Time{{</cgr>}} \\
 {{<nolinktitle>}}Questions so far{{</nolinktitle>}} \\
 {{<nolinktitle>}}Julia basics{{</nolinktitle>}}
 
 {{<cbr>}}On your own{{</cbr>}} \\
-{{<nolinktitle>}}Julia on Compute Canada clusters{{</nolinktitle>}}
+{{<nolinktitle>}}HPC with Julia: a short introduction{{</nolinktitle>}}
 
-{{<cor>}}Zoom{{</cor>}} {{<s>}} {{<cgr>}}3–5 pm Pacific Time{{</cgr>}} \\
-{{<nolinktitle>}}Parallel computing in Julia{{</nolinktitle>}} \\
+{{<cor>}}Zoom{{</cor>}} {{<s>}} {{<cgr>}}2:30 pm–4:30 pm Pacific Time{{</cgr>}} \\
+{{<nolinktitle>}}HPC with Julia: the n-body problem as an example{{</nolinktitle>}} \\
 {{<nolinktitle>}}Final questions{{</nolinktitle>}}
