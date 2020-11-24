@@ -26,7 +26,7 @@ By mid-day you should be comfortable with:
 * applying filters to process data
 
 If you have yor own spatially-defined dataset, try loading it into ParaView and sharing your experience (or
-visualizations!)  in the afternoon session.
+visualizations!) in the mid-day session.
 
 <!-- - creating and deleting files and directories, copying and moving them -->
 <!-- - writing text into a file and printing its contents to the terminal -->
