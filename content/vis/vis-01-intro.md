@@ -24,7 +24,7 @@ We already covered Matplotlib in our Python course in this school. Plotly is an 
 package from a Montreal-based company with the same name. Plotly engine has a Python API and stores plots inside
 interactive HTML5 files that can be also be displayed in a Jupyter notebook.
 
-You can find our Plotly notes with script examples [here](../plotly). Since our goal is learning 3D scientific
+You can find our Plotly notes with script examples [here](../../plotly). Since our goal is learning 3D scientific
 visualization with ParaView, we include these notes as a side page for later reading for anyone interested in simpler
 plotting. If your goal is learning 3D visualization with ParaView, please don't spend time on Plotly now.
 
