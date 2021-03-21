@@ -1,8 +1,6 @@
 baseurl = "/"
 title = "WestGrid Autumn School 2020"
 
-theme = "hugo-coder"
-
 languagecode = "en"
 defaultcontentlanguage = "en"
 
