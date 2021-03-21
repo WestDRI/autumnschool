@@ -208,12 +208,24 @@ img[alt=wgavatar] {
     width: 15.0rem;
     text-align: right;
     font-weight: bold;
+    @media only screen and (max-width : 768px) {
+      text-align: left;
+      display: block;
+      margin-left: 0;
+      font-size: 1.5rem;
+    }
   }
   .right {
     font-family: $heading-font-family;
     line-height: 3.0rem;
     display: table-cell;
     padding-left: 5.0rem;
+    @media only screen and (max-width : 768px) {
+      display: block;
+      margin-left: 0;
+      padding-left: 0;
+      line-height: 2.3rem;
+    }
   }
 }
 
@@ -222,20 +234,36 @@ img[alt=wgavatar] {
     font-family: $heading-font-family;
     display: table-cell;
     width: 9.0rem;
-    text-align: left;
     font-style: italic;
+    @media only screen and (max-width : 768px) {
+      display: block;
+      margin-left: 0;
+      font-size: 1.5rem;
+    }
   }
   .left {
     display: table-cell;
     width: 6.0rem;
     text-align: right;
     font-weight: bold;
+    @media only screen and (max-width : 768px) {
+      text-align: left;
+      display: block;
+      margin-left: 0;
+      font-size: 1.5rem;
+    }
   }
   .right {
     font-family: $heading-font-family;
     line-height: 3.0rem;
     display: table-cell;
     padding-left: 5.0rem;
+    @media only screen and (max-width : 768px) {
+      display: block;
+      margin-left: 0;
+      padding-left: 0;
+      line-height: 2.3rem;
+    }
   }
 }
 
@@ -244,9 +272,21 @@ img[alt=wgavatar] {
   .left {
     display: table-cell;
     width: 13.0rem;
+    @media only screen and (max-width : 768px) {
+      display: block;
+      margin-left: 0;
+      line-height: 2.5rem;
+      font-size: 1.5rem;
+    }
   }
   .right {
     display: table-cell;
+    @media only screen and (max-width : 768px) {
+      display: block;
+      margin-left: 0;
+      line-height: 2rem;
+      font-size: 1.5rem;
+    }
   }
 }
 
@@ -264,6 +304,9 @@ img[alt=wgavatar] {
   }
   &:visited {
     color: #7a1d06
+  }
+  @media only screen and (max-width : 768px) {
+    font-size: 1.6rem;
   }
 }
 
