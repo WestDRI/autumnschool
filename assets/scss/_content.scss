@@ -353,32 +353,37 @@ img[alt=wgavatar] {
   @media only screen and (max-width : 480px) {
     padding-left: 0rem;
     font-size: 1.4rem;
+    line-height: 2.5rem;
   }
   a,
   a:hover,
   a:focus,
   a:visited {
     font-size: 1.8rem;
-    @media only screen and (max-width : 480px) {
-      font-size: 1.4rem;
-    }
     line-height: 4.2rem;
     color: #ee710a;
     font-family: $heading-font-family;
     font-weight: 700;
+    @media only screen and (max-width : 480px) {
+      font-size: 1.4rem;
+      line-height: 2.5rem;
+    }
   }
   .left {
     display: table-cell;
     width: 28.0rem;
+    text-align: left;
+    font-weight: bold;
     @media only screen and (max-width : 480px) {
       width: 21.0rem;
     }
-    text-align: left;
-    font-weight: bold;
   }
   .right {
     font-family: $heading-font-family;
     line-height: 3.0rem;
     display: table-cell;
+    @media only screen and (max-width : 480px) {
+      line-height: 2.5rem;
+    }
   }
 }
